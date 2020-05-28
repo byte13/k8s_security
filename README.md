@@ -8,9 +8,9 @@ Various tools for Kubernetes security
 * OpenShift v4.3.1
 * kubernetes v1.18.3
 ### Usage :
-1. Copy script on some host with connection to connect to API server
-2. Allow execution of the script
-2. Use an account/context with at least the following rights
+1. Copy script on some host with connection to API server
+2. Allow execution of the script ($ chmod 750 ... )
+3. Use an account/context with at least the following rights in kubernetes
 ```
     TBS
 ```  
